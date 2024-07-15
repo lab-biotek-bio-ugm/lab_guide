@@ -1,0 +1,29 @@
+site_name: "Bioengineering Research Group Lab Guide"
+#site_url: "https://yourusername.github.io/your-repo-name"
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+  logo: assets/logo.png
+  palette:
+    primary: teal
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Genome Assembly:
+      - Introduction: genome_assembly/introduction.md
+      - Tools: genome_assembly/tools.md
+  - Genome Annotation:
+      - Introduction: genome_annotation/introduction.md
+      - Tools: genome_annotation/tools.md
+  - Genome Mining:
+      - Introduction: genome_mining/introduction.md
+      - Tools: genome_mining/tools.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
